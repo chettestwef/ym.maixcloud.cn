@@ -1,0 +1,24 @@
+{
+    "lc": {
+        "machine_code": "4706df05-25d9-5dff-8c6a-a4b17b1ea37e",
+        "expires": "9999-12-31",
+        "last_ip": "36.163.166.82",
+        "last_login_time": "2025-06-16 23:35:27"
+    },
+    "lqy": {
+        "machine_code": "bfe1da40-742d-5d45-9959-91609fc47701",
+        "expires": "9999-12-31",
+        "last_ip": "39.162.250.209",
+        "last_login_time": "2025-06-22 22:08:07"
+    },
+    "test1": {
+        "machine_code": "f4fbdf45-9076-5ae5-b9a6-e04cb18e4de1",
+        "expires": "9999-12-31",
+        "last_ip": "117.32.139.145",
+        "last_login_time": "2025-05-26 11:31:57"
+    },
+    "test2": {
+        "machine_code": "",
+        "expires": "9999-12-31"
+    }
+}

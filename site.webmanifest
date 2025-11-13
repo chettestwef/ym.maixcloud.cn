@@ -1,0 +1,21 @@
+{
+  "name": "AutoFarm - 专业元梦之星自动农场工具",
+  "short_name": "AutoFarm Tools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "元梦之星专业农场，提供自动农场等功能",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

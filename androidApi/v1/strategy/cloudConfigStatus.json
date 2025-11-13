@@ -1,0 +1,87 @@
+[
+    {
+        "type": "image",
+        "value": "ocr/img/anti_pull.png",
+        "threshold": 0.85
+    },
+    {
+        "type": "image",
+        "value": "ocr/img/anti_pull2.png",
+        "threshold": 0.85
+    },
+    {
+        "type": "image",
+        "value": "ocr/img/anti_fishcard.png",
+        "threshold": 0.85
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.4,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.4,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.4,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.4,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.6,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.6,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.6,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.6,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.6,
+        "click_y_ratio": 0.06
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.67,
+        "click_y_ratio": 0.1
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.67,
+        "click_y_ratio": 0.1
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.67,
+        "click_y_ratio": 0.1
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.67,
+        "click_y_ratio": 0.1
+    },
+    {
+        "type": "window",
+        "click_x_ratio": 0.67,
+        "click_y_ratio": 0.1
+    }
+]
