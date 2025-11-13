@@ -58,7 +58,7 @@
       <div class="modal-body">
         <div class="alert alert-danger" role="alert">
           <h4 class="alert-heading">重要通知！</h4>
-          <p class="mb-0">我们的服务将于 <strong class="fs-6">2024年12月31日 23:59</strong> 正式永久停止。</p>
+          <p class="mb-0">我们的服务将于 <strong class="fs-6">2025年12月21日 07:34:00</strong> 正式永久停止。</p>
         </div>
         
         <p class="fw-bold" style="color: black;">此次为永久性停止服务：</p>
