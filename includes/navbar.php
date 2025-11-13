@@ -63,10 +63,11 @@
         
         <p class="fw-bold" style="color: black;">此次为永久性停止服务：</p>
         <ul style="color: black;">
-          <li>所有功能将完全停止运行</li>
-          <li>网站将无法访问</li>
-          <li>用户数据将按政策清理</li>
+          <li>我们将对各位星宝负责到底，结束服务时间为最后一个星宝的卡密到期时间</li>
+          <li>网站将无法访问，全部服务将被停止</li>
+          <li>各位星宝的数据将被永久清理</li>
           <li>不再提供任何技术支持</li>
+          <li>脚本的所有功能将离线并且无法登陆和使用</li>
         </ul>
         
         <div class="bg-light p-3 rounded mt-3">
