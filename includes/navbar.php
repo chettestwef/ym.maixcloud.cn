@@ -46,43 +46,48 @@
 </nav>
 
 
-<!-- 模态框 -->
-<div class="modal fade" id="dangerModal" tabindex="-1" aria-labelledby="dangerModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
+<!-- 危险操作模态框 - 自动弹出 -->
+<div class="modal fade" id="dangerModal" tabindex="-1" aria-labelledby="dangerModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-danger">
       <div class="modal-header bg-danger text-white">
         <h1 class="modal-title fs-5" id="dangerModalLabel">
           <i class="bi bi-exclamation-triangle-fill me-2"></i>服务停止公告
         </h1>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="alert alert-danger" role="alert">
           <h4 class="alert-heading">重要通知！</h4>
-          <p class="mb-0">我们的服务将于 <strong>2024年12月31日 23:59</strong> 正式停止。</p>
+          <p class="mb-0">我们的服务将于 <strong class="fs-6">2024年12月31日 23:59</strong> 正式永久停止。</p>
         </div>
         
-        <p>此次停止服务涉及以下方面：</p>
-        <ul>
-          <li>所有在线功能将无法使用</li>
-          <li>用户数据将按政策进行清理</li>
-          <li>相关API接口将停止响应</li>
+        <p class="fw-bold" style="color: black;">此次为永久性停止服务：</p>
+        <ul style="color: black;">
+          <li>所有功能将完全停止运行</li>
+          <li>网站将无法访问</li>
+          <li>用户数据将按政策清理</li>
+          <li>不再提供任何技术支持</li>
         </ul>
         
-        <p class="text-muted small">如有任何疑问，请及时联系客服团队。</p>
+        <div class="bg-light p-3 rounded mt-3">
+          <p class="mb-2"><strong>感谢您一直以来的支持！</strong></p>
+          <p class="mb-0 text-muted small">山水有相逢，未来或有缘再见。</p>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">了解更多</button>
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">确认知悉</button>
+        <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">确认并告别</button>
       </div>
     </div>
   </div>
 </div>
 
-<!-- 触发按钮 (可以放在页面任何位置) -->
-<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dangerModal">
-  查看服务停止公告
-</button>
+<script>
+// 自动显示模态框
+document.addEventListener('DOMContentLoaded', function() {
+    const dangerModal = new bootstrap.Modal(document.getElementById('dangerModal'));
+    dangerModal.show();
+});
+</script>
 
 <!-- includes/navbar.php -->
 <!-- includes/navbar.php -->
